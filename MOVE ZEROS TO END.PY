@@ -1,11 +1,5 @@
 n=int(input())
 arr=list(map(int,input().split()))
-pos=0
-for i in range(n):
-    if arr[i]!=0:
-        arr[po  s]=arr[i]
-        pos+=1
-while pos<n:
-    arr[pos]=0
-    pos+=1
-print(*arr)
+non_zero=[x for x in arr if x!=0]
+non_zero+=[0]*(n-len(non_zero))
+print(*non_zero)
