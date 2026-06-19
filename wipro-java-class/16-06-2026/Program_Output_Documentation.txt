@@ -1,0 +1,401 @@
+================================================================================
+                    JAVA CLASSES AND OBJECTS PROGRAMS
+                   16-06-2026 | All Programs Output
+================================================================================
+
+PROGRAM 1: STUDENT DETAILS USING CLASS AND OBJECT
+================================================================================
+File: Program01_StudentDetails.java
+
+Logic:
+- Create a class Student with data members (rollNo, name, marks)
+- Create methods to read and display details
+- Create an object of the class
+- Store values using the object
+- Display student details
+
+Code Concept:
+class Student {
+    int rollNo;
+    String name;
+    float marks;
+    
+    void readDetails() - Accepts student data from user
+    void displayDetails() - Displays stored student data
+}
+
+INPUT:
+Roll Number: 101
+Name: Rajesh Kumar
+Marks: 95.5
+
+OUTPUT:
+--- Student Details ---
+Roll Number: 101
+Name: Rajesh Kumar 
+Marks: 95.5
+
+================================================================================
+
+PROGRAM 2: EMPLOYEE INFORMATION SYSTEM
+================================================================================
+File: Program02_EmployeeInformation.java
+
+Logic:
+- Create a class Employee with employee id, name, and salary
+- Define a method to accept employee details
+- Define a method to display details
+- Create an employee object
+- Call methods using the object
+
+Code Concept:
+class Employee {
+    int empId;
+    String name;
+    double salary;
+    
+    void acceptDetails() - Accepts employee information
+    void displayDetails() - Displays employee information
+}
+
+INPUT:
+Employee ID: 201
+Name: Priya Singh
+Salary: 50000
+
+OUTPUT:
+--- Employee Details ---
+Employee ID: 201
+Name: Priya Singh 
+Salary: 50000.0
+
+================================================================================
+
+PROGRAM 3: RECTANGLE AREA CALCULATION
+================================================================================
+File: Program03_RectangleArea.java
+
+Logic:
+- Create a class Rectangle
+- Store length and breadth as data members
+- Create a method to calculate area
+- Create an object and assign values
+- Call method and display area
+
+Code Concept:
+class Rectangle {
+    double length;
+    double breadth;
+    
+    void setDimensions(double l, double b) - Sets rectangle dimensions
+    double calculateArea() - Returns area (length * breadth)
+    void display() - Displays rectangle details and area
+}
+
+Formula Used: Area = length × breadth
+
+INPUT:
+Length: 10
+Breadth: 5
+
+OUTPUT:
+--- Rectangle Details ---
+Length: 10.0
+Breadth: 5.0
+Area: 50.0
+
+================================================================================
+
+PROGRAM 4: CIRCLE AREA CALCULATION
+================================================================================
+File: Program04_CircleArea.java
+
+Logic:
+- Create a class Circle
+- Store radius as data member
+- Create a method to calculate area
+- Use formula πr²
+- Display the area
+
+Code Concept:
+class Circle {
+    double radius;
+    static final double PI = 3.14159;
+    
+    void setRadius(double r) - Sets the radius
+    double calculateArea() - Returns area (PI * radius * radius)
+    void display() - Displays circle details and area
+}
+
+Formula Used: Area = π × r² (π = 3.14159)
+
+INPUT:
+Radius: 7
+
+OUTPUT:
+--- Circle Details ---
+Radius: 7.0
+Area: 153.93791
+
+================================================================================
+
+PROGRAM 5: BANK ACCOUNT MANAGEMENT
+================================================================================
+File: Program05_BankAccount.java
+
+Logic:
+- Create a class BankAccount
+- Store account number, customer name, and balance
+- Create methods for deposit and withdrawal
+- Create an object
+- Perform transactions and display balance
+
+Code Concept:
+class BankAccount {
+    String accountNumber;
+    String customerName;
+    double balance;
+    
+    void setDetails() - Initialize account details
+    void deposit(double amount) - Add amount to balance
+    void withdraw(double amount) - Subtract amount from balance
+    void displayDetails() - Display account information
+}
+
+INPUT:
+Initial Balance: 5000
+Deposit Amount: 5000
+Withdraw Amount: 2000
+
+OUTPUT:
+--- Bank Account Details ---
+Account Number: ACC123456
+Customer Name: John Doe
+Balance: 5000.0
+
+Deposited: 5000.0
+New Balance: 10000.0
+
+Withdrawn: 2000.0
+New Balance: 8000.0
+
+--- Bank Account Details ---
+Account Number: ACC123456
+Customer Name: John Doe
+Balance: 8000.0
+
+================================================================================
+
+PROGRAM 6: CALCULATOR USING CLASS
+================================================================================
+File: Program06_Calculator.java
+
+Logic:
+- Create a class Calculator
+- Define methods for addition, subtraction, multiplication, and division
+- Create an object
+- Pass numbers to methods
+- Display results
+
+Code Concept:
+class Calculator {
+    double num1;
+    double num2;
+    
+    void setNumbers(double n1, double n2) - Store two numbers
+    double add() - Returns num1 + num2
+    double subtract() - Returns num1 - num2
+    double multiply() - Returns num1 * num2
+    double divide() - Returns num1 / num2 (with zero check)
+    void displayResults() - Shows all four operations
+}
+
+INPUT:
+First Number: 20
+Second Number: 5
+
+OUTPUT:
+--- Calculator Results ---
+Addition: 20.0 + 5.0 = 25.0
+Subtraction: 20.0 - 5.0 = 15.0
+Multiplication: 20.0 * 5.0 = 100.0
+Division: 20.0 / 5.0 = 4.0
+
+================================================================================
+
+PROGRAM 7: BOOK INFORMATION SYSTEM
+================================================================================
+File: Program07_BookInformation.java
+
+Logic:
+- Create a class Book
+- Store book id, title, and author
+- Create methods to enter and display details
+- Create a book object
+- Display stored information
+
+Code Concept:
+class Book {
+    int bookId;
+    String title;
+    String author;
+    
+    void enterDetails() - Accepts book information from user
+    void displayDetails() - Displays book information
+}
+
+INPUT:
+Book ID: 301
+Title: Java Programming
+Author: Bjarne Stroustrup
+
+OUTPUT:
+--- Book Information ---
+Book ID: 301
+Title: Java Programming 
+Author: Bjarne Stroustrup 
+
+================================================================================
+
+PROGRAM 8: CAR DETAILS PROGRAM
+================================================================================
+File: Program08_CarDetails.java
+
+Logic:
+- Create a class Car
+- Store model, company, and price
+- Create display method
+- Create object and assign values
+- Print car details
+
+Code Concept:
+class Car {
+    String model;
+    String company;
+    double price;
+    
+    void setDetails(String m, String c, double p) - Sets car information
+    void display() - Displays car details
+}
+
+INPUT:
+Car Model: XUV700
+Company: Mahindra
+Price: 1200000
+
+OUTPUT:
+--- Car Details ---
+Model: XUV700 
+Company: Mahindra 
+Price: Rs.1200000.0
+
+================================================================================
+
+PROGRAM 9: PRODUCT INFORMATION
+================================================================================
+File: Program09_ProductInformation.java
+
+Logic:
+- Create a class Product
+- Store product id, name, and price
+- Create methods to input and display data
+- Create object
+- Display product information
+
+Code Concept:
+class Product {
+    int productId;
+    String name;
+    double price;
+    
+    void inputData() - Accepts product information
+    void displayData() - Displays product information
+}
+
+INPUT:
+Product ID: 501
+Product Name: Laptop
+Price: 75000
+
+OUTPUT:
+--- Product Information ---
+Product ID: 501
+Name: Laptop 
+Price: Rs.75000.0
+
+================================================================================
+
+PROGRAM 10: CALCULATE SIMPLE INTEREST
+================================================================================
+File: Program10_SimpleInterest.java
+
+Logic:
+- Create a class Interest
+- Store principal, rate, and time
+- Create method to calculate simple interest
+- Use formula SI = (P × R × T) / 100
+- Display result
+
+Code Concept:
+class Interest {
+    double principal;
+    double rate;
+    double time;
+    
+    void setValues(double p, double r, double t) - Store P, R, T values
+    double calculateSimpleInterest() - Returns (P * R * T) / 100
+    void display() - Displays calculated SI and total amount
+}
+
+Formula Used: Simple Interest = (Principal × Rate × Time) / 100
+              Total Amount = Principal + Simple Interest
+
+INPUT:
+Principal: 10000
+Rate of Interest: 8%
+Time: 2 years
+
+OUTPUT:
+--- Simple Interest Calculation ---
+Principal: Rs.10000.0
+Rate: 8.0%
+Time: 2.0 years
+Simple Interest: Rs.1600.0
+Total Amount: Rs.11600.0
+
+================================================================================
+
+SUMMARY
+================================================================================
+Total Programs Created: 10
+All Programs: Successfully Compiled ✓
+All Programs: Successfully Executed ✓
+
+Programs Covered:
+1. Student Details - Basic class with read/display methods
+2. Employee Information - Employee data management
+3. Rectangle Area - Geometric calculation with formula
+4. Circle Area - Circular area calculation using π
+5. Bank Account - Transaction management system
+6. Calculator - Multi-operation arithmetic class
+7. Book Information - Library data storage
+8. Car Details - Product information storage
+9. Product Information - E-commerce product data
+10. Simple Interest - Financial calculation with formula
+
+Key Concepts Learned:
+✓ Class definition and instantiation
+✓ Data members (variables) in a class
+✓ Methods with parameters and return types
+✓ Scanner for user input
+✓ Object creation and method calling
+✓ Encapsulation
+✓ Real-world problem modeling
+✓ Formula implementation in code
+✓ Conditional logic in methods
+✓ Output formatting
+
+================================================================================
+Date: 16-06-2026
+All tests passed successfully!
+================================================================================
